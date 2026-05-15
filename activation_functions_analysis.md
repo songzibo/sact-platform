@@ -368,17 +368,12 @@ class PReLU(torch.nn.PReLU):
 ### 3.4 xielu（1个模型）
 
 **数学公式：**
-$$
-\text{xIELU}(x) = \begin{cases} 
-x & \text{if } x > 0 \\ 
-\alpha \cdot (e^x - 1) & \text{if } x \leq 0 
-\end{cases}
-$$
+
 
 
 $$ \text{xIELU}(x) = \begin{cases} x & \text{if } x > 0 \\ \alpha \cdot (e^x - 1) & \text{if } x \leq 0 \end{cases} $$
 
-$$ \text{xIELU}(x) = \begin{cases} x, & \text{if } x > 0 \\ \alpha \cdot (e^x - 1), & \text{if } x \leq 0 \end{cases} $$
+
 ELU的指数变体，Alpha默认值为1.0。
 
 **使用此激活函数的模型：**
