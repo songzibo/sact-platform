@@ -165,7 +165,7 @@ print("SiLU output:", silu(x))
 ## 3. ReLU (Rectified Linear Unit)
 
 **数学公式：**
-$$ReLU(x) = max(0, x) = \begin{cases} x & \text{if } x > 0 \\ 0 & \text{if } x \leq 0 \end{cases}$$
+$$ \text{ReLU}(x) = \max(0, x) = \begin{cases} x & \text{if } x > 0 \\ 0 & \text{if } x \leq 0 \end{cases} $$
 
 **性质：**
 - 输出范围：[0, ∞)
