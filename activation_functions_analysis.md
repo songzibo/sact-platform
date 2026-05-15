@@ -359,7 +359,7 @@ def hardswish(x):
 ### 3.3 PReLU (Parametric ReLU)（2个模型）
 
 **数学公式：**
-$$PReLU(x) = \begin{cases} x & \text{if } x > 0 \\ a \cdot x & \text{if } x \leq 0 \end{cases}$$
+$$PReLU(x) = \begin{cases} x & \text{if } x > 0 \\\\ a \cdot x & \text{if } x \leq 0 \end{cases}$$
 
 其中 $a$ 是可学习的参数。
 
