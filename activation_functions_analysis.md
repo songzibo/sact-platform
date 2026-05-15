@@ -166,7 +166,6 @@ print("SiLU output:", silu(x))
 
 **数学公式：**
 
-$$ \text{ReLU}(x) = \max(0, x) = \begin{cases} x, & \text{if } x > 0 \\ 0, & \text{if } x \leq 0 \end{cases} $$
 
 $$
 ReLU(x) = \max(0, x) = \begin{cases} 
