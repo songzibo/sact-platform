@@ -283,7 +283,9 @@ def gelu_fast(x):
 ### 2.1 ReLU² (Squared ReLU)（8个模型）
 
 **数学公式：**
-$$ReLU^2(x) = (max(0, x))^2 = \begin{cases} x^2 & \text{if } x > 0 \\ 0 & \text{if } x \leq 0 \end{cases}$$
+$$
+\text{ReLU}^2(x) = (\max(0, x))^2 = \begin{cases} x^2 & \text{if } x > 0 \\\\ 0 & \text{if } x \leq 0 \end{cases}
+$$
 
 用于BitNet等量化模型，可以更好地保持量化精度。
 
