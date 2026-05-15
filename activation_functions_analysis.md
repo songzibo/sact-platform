@@ -165,7 +165,15 @@ print("SiLU output:", silu(x))
 ## 3. ReLU (Rectified Linear Unit)
 
 **数学公式：**
+
 $$ \text{ReLU}(x) = \max(0, x) = \begin{cases} x, & \text{if } x > 0 \\ 0, & \text{if } x \leq 0 \end{cases} $$
+
+$$
+ReLU(x) = \max(0, x) = \begin{cases} 
+x & \text{if } x > 0 \\ 
+0 & \text{if } x \leq 0 
+\end{cases}
+$$
 
 **性质：**
 - 输出范围：[0, ∞)
@@ -209,6 +217,8 @@ print("ReLU output:", relu(x))
 
 **数学公式：**
 $$GELU(x) \approx 0.5x(1 + \tanh(\sqrt{2/\pi} \cdot (x + 0.044715 \cdot x^3)))$$
+
+
 
 **使用此激活函数的模型：**
 Gemma, GPT-BigCode, Idefics2, Idefics3, MiniCPMv4_6, PaddleOCR-VL, Phi4-Multimodal, Qwen3-Omni-MoE, Qwen3-VL, SigLIP, SigLIP2, SmolVLM, StarCoder2, Video-Llama3
