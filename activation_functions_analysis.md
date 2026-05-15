@@ -377,12 +377,6 @@ class PReLU(torch.nn.PReLU):
 
 **数学公式：**
 
-
-
-$$ \text{xIELU}(x) = \begin{cases} x & \text{if } x > 0 \\ \alpha \cdot (e^x - 1) & \text{if } x \leq 0 \end{cases} $$
-
-
-
 $$
 \text{xIELU}(x) = \begin{cases} 
 x & \text{if } x > 0 \\\\ 
